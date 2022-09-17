@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@400;500&display=swap');
+
+:root {
+    --main-bg-color: purple;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+
+}
+
+.max-width-2 {
+    max-width: 60vw;
+
+}
+
+.m-auto {
+    margin: auto;
+}
+
+
+
+.form-input {
+    padding: 3px 5px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 0 15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 6px;
+
+}
+
+.btn {
+    padding: 3px 15px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.max-width-1{
+    padding: 12px 0;
+
+}
